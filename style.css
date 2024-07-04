@@ -10,12 +10,12 @@ body{
     background-color: black;
 }
 nav{
-    background: #ca4736;
+    background: #000000;
     height: 80px;
     width: 100%;
 }
 label.logo{
-    color: white;
+    color: #4fb8b2;
     font-size: 45px;
     line-height: 80px;
     padding: 0 100px;
@@ -30,7 +30,7 @@ nav ul li{
     line-height: 80px;
     margin: 0 20px;
 }
-v ul li a{
+ul li a{
     color: white;
     font-size: 17px;
     padding: 7px 13px;
@@ -38,7 +38,19 @@ v ul li a{
     text-transform: uppercase;
 }
 a.active,a:hover{
-    background: #ffffff;
+    background: #4fb8b2;
     transition: 0.5s;
     padding: 15px 20px;
+}
+h1{
+    color: #4fb8b2;
+    font-size: 80px;
+    padding-top: 12rem;
+    padding-left: 6rem;
+}
+h3{
+    color: #4fb8b2;
+    font-size: 50px;
+    padding-top: 1rem;
+    padding-left: 6rem;
 }
